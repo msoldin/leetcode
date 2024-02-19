@@ -1,4 +1,4 @@
-package org.example;
+package de.msoldin;
 
 import java.net.Socket;
 import java.util.Arrays;
@@ -10,7 +10,6 @@ public class Q2_AddTwoNumbers {
 
     public static void main(String [] args){
 
-        new Socket("", 232).getOutputStream().write("");
         String test = new String("");
         test = "2";
 

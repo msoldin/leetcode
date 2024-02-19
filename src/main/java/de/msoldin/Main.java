@@ -1,4 +1,4 @@
-package org.example;
+package de.msoldin;
 
 public class Main {
     public static void main(String[] args) {
