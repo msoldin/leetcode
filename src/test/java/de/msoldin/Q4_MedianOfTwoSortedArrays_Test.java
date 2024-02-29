@@ -31,5 +31,18 @@ public class Q4_MedianOfTwoSortedArrays_Test {
         Assertions.assertThat(result).isEqualTo(2.5);
     }
 
+    @Test
+    public void exampleThree_findMedianSortedArrays() {
+        //given
+        int[] inputOne = {1, 2, 7, 8, 9, 10};
+        int[] inputTwo = {1, 3, 4, 5, 6, 21};
+
+        //when
+        double result = Q4_MedianOfTwoSortedArrays.findMedianSortedArrays(inputOne, inputTwo);
+
+        //then
+        Assertions.assertThat(result).isEqualTo(5.5);
+    }
+
 
 }
